@@ -1,0 +1,5 @@
+<p>photos-page lazy loaded works!</p>
+
+<ng-container *ngFor="let item of photos()">
+  <img [src]="item.thumbnailUrl" />
+</ng-container>
