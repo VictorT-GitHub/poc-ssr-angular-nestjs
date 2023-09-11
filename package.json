@@ -10,8 +10,7 @@
     "dev:ssr": "ng run poc-ssr-universal-nestjs:serve-ssr",
     "serve:ssr": "node dist/poc-ssr-universal-nestjs/server/main.js",
     "build:ssr": "ng build && ng run poc-ssr-universal-nestjs:server",
-    "prerender": "ng run poc-ssr-universal-nestjs:prerender",
-    "prebuild:ssr": "ngcc"
+    "prerender": "ng run poc-ssr-universal-nestjs:prerender"
   },
   "private": true,
   "dependencies": {
